@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="quizz.css">
+    <script src="quizz.js"></script>
+</head>
+<body>
+    <h1>Blog do Pensamento Computacional</h1>
+    <h2 class="author">Gregório Fornetti Azevedo - RA: 792181</h2>
+
+    <div id="quizzes-container">
+        <h3>Qual é uma possível definição de Pensamento Computacional ? Qual é a importância de se estudar sobre esse tema ?</h3>
+
+        <form id="questions">
+            <div>
+                <input type="radio" class="radio-input" id="answer1" name="questions" value="incorrect">
+                <label for="answer1">
+                    O pensamento computacional é o estudo sobre o computador e como ele opera. O estudo sobre esse tópico facilita com que pessoas, apenas da área de tecnologia, resolvam problemas utilizando o computador.
+                </label>
+                <p class="after-answer incorrect">
+                    <strong>Incorreta:</strong> o pensamento computacional não são técnicas para ensinar o computador a "pensar" e esses conceitos não são diretamente utilizados em inteligências artificiais.
+                </p>
+            </div>
+            <div>
+                <input type="radio" class="radio-input" id="answer2" name="questions" value="incorrect">
+                <label for="answer2">
+                    O pensamento computacional é o estudo sobre o computador e como ele opera. O estudo sobre esse tópico facilita com que pessoas, apenas da área de tecnologia, resolvam problemas utilizando o computador.
+                </label>
+                <p class="after-answer incorrect">
+                    <strong>Incorreta:</strong> o pensamento computacional não beneficia apenas pessoas da área de tecnologia, e sim qualquer tipo de pessoa que estude sobre o tema. Além disso, o pensamento computacional não está apenas relacionado a resolução de problemas através do computador, mas sim à resolução de problemas como um todo.
+                </p>
+            </div>
+            <div>
+                <input type="radio" class="radio-input" id="answer3" name="questions" value="incorrect">
+                <label for="answer3">
+                    O pensamento computacional é o estudo sobre o computador e como ele opera. O estudo sobre esse tópico facilita com que pessoas, de qualquer área de atuação, resolvam seus problemas utilizando o computador.
+                </label>
+                <p class="after-answer incorrect">
+                    <strong>Incorreta:</strong> o pensamento computacional realmente pode beneficiar qualquer pessoa, mesmo ela não sendo da área de tecnologia. Porém, assim como no item b, o pensamento computacional não está apenas relacionado a resolução de problemas através do computador, mas sim à resolução de problemas como um todo.
+                </p>
+            </div>
+            <div>
+                <input type="radio" class="radio-input" id="answer4" name="questions" value="incorrect">
+                <label for="answer4">
+                    O pensamento computacional é um conjunto de competências para resolução de problemas, sendo essas competências aprendidas a partir do estudo da ciência da computação. Logo, o estudo deste tópico é importante para a resolução de diversos tipos de problemas, e por ser sobre ciência da computação, apenas pessoas da área de tecnologia são beneficiadas.
+                </label>
+                <p class="after-answer incorrect">
+                    <strong>Incorreta:</strong> a definição de pensamento computacional está correta, porém, o pensamento computacional não beneficia apenas pessoas da área de tecnologia, e sim qualquer tipo de pessoa que estude sobre o tema.
+                </p>
+            </div>
+            <div>
+                <input type="radio" class="radio-input" id="answer5" name="questions" value="correct">
+                <label for="answer5">
+                    O pensamento computacional é um conjunto de competências para resolução de problemas, sendo essas competências aprendidas a partir do estudo da ciência da computação. Logo, o estudo deste tópico é importante para a resolução de diversos tipos de problemas, e mesmo sendo muito ligado com ciência da computação, pessoas de qualquer área de atuação podem ser beneficiadas.
+                </label>
+                <p class="after-answer correct">
+                    <strong>Correta:</strong> a definição do pensamento computacional está correta e ele realmente pode auxiliar na resolução de diversos problemas, não sendo necessário ser um cientista da computação para possuir essas competências.
+                </p>
+            </div>
+
+            <div class="after-answer">
+                Esse quiz foi criado levando em conta a definição de Pensamento Computacional definida por Jeannette Marie Wing, nesse <a href="https://dl.acm.org/doi/fullHtml/10.1145/1118178.1118215" target="_blank" rel="external">artigo</a>
+            </div>
+            <input id="btn-submit" type="submit" value="Responder" disabled>
+        </form>
+    </div>
+
+    <a href="../index.html" id="return-btn">Voltar</a>
+</body>
+</html>
